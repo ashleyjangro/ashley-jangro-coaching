@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl font-bold text-brand;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-brand;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  
+  h4 {
+    @apply text-lg md:text-xl font-semibold;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-20;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .btn-primary {
+    @apply bg-brand text-white px-6 py-3 rounded-lg font-semibold hover:bg-seafoam transition-colors inline-block text-center;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-brand text-brand px-6 py-3 rounded-lg font-semibold hover:bg-brand hover:text-white transition-colors inline-block text-center;
+  }
+  
+  .btn-cta {
+    @apply bg-gradient-to-r from-brand to-seafoam text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transition-all duration-300 inline-block text-center;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand to-seafoam bg-clip-text text-transparent;
+  }
+}
