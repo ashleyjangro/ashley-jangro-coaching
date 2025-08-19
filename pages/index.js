@@ -119,7 +119,7 @@ const CoachingVsTherapySection = () => {
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="mb-6">Coaching vs. Therapy: What's the Difference?</h2>
+            <h2 className="mb-6">Coaching vs. Therapy: What&apos;s the Difference?</h2>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -136,7 +136,7 @@ const CoachingVsTherapySection = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-3 mt-1">🌟</span>
-                  <span><strong>Strengths-based:</strong> Building on what's already working</span>
+                  <span><strong>Strengths-based:</strong> Building on what&apos;s already working</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-600 mr-3 mt-1">🌍</span>
@@ -253,7 +253,7 @@ const CTASection = () => {
       <div className="container-custom text-center">
         <h2 className="text-white mb-6">Ready to Transform Your Life?</h2>
         <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-          Stop settling for "good enough." Start creating the life you actually want with strategic, 
+          Stop settling for &quot;good enough.&quot; Start creating the life you actually want with strategic, 
           results-focused coaching.
         </p>
         

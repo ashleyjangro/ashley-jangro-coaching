@@ -120,7 +120,7 @@ const AuthorBio = () => (
               <h3 className="text-2xl font-bold text-brand mb-2">Ashley Jangro, LPCC</h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 Licensed Professional Counselor Candidate specializing in trauma healing, anxiety management, 
-                and women's mental health. Based in Castle Rock, Colorado, Ashley combines evidence-based 
+                and women&apos;s mental health. Based in Castle Rock, Colorado, Ashley combines evidence-based 
                 therapy with practical tools for real-world healing.
               </p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4">
