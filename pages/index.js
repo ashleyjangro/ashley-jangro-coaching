@@ -32,15 +32,14 @@ const HeroSection = () => {
           <div className="text-center">
             <div className="bg-gradient-to-br from-mint to-seafoam p-8 rounded-2xl shadow-2xl">
               <div className="bg-white rounded-xl p-8">
-                <div className="text-6xl mb-6">🚀</div>
-                <h3 className="text-xl font-semibold text-brand mb-4">Ready to Level Up?</h3>
+                <h3 className="text-2xl font-semibold text-brand mb-4">Ready to Level Up?</h3>
                 <p className="text-gray-600 mb-6">
                   Virtual coaching sessions designed for busy professionals, teens, and young adults
                 </p>
-                <div className="text-sm text-gray-500">
-                  <p>✓ Nationwide & International</p>
-                  <p>✓ Flexible Scheduling</p>
-                  <p>✓ Results-Focused</p>
+                <div className="text-sm text-gray-500 space-y-2">
+                  <p className="flex items-center justify-center"><span className="w-2 h-2 bg-brand rounded-full mr-3"></span>Nationwide & International</p>
+                  <p className="flex items-center justify-center"><span className="w-2 h-2 bg-brand rounded-full mr-3"></span>Flexible Scheduling</p>
+                  <p className="flex items-center justify-center"><span className="w-2 h-2 bg-brand rounded-full mr-3"></span>Results-Focused</p>
                 </div>
               </div>
             </div>
@@ -56,21 +55,18 @@ const ServicesSection = () => {
     {
       title: "Executive Women Coaching",
       description: "Strategic life design for high-achieving women navigating success without sacrificing wellbeing.",
-      icon: "👩‍💼",
       href: "/executive-coaching",
       highlights: ["Leadership transition", "Work-life integration", "Confidence building"]
     },
     {
       title: "Teen Life Coaching", 
       description: "Help your teen build confidence, motivation, and life skills for a successful transition to adulthood.",
-      icon: "🌟",
       href: "/teen-coaching",
       highlights: ["Future planning", "Motivation & confidence", "Academic success"]
     },
     {
       title: "Young Adult Coaching",
       description: "Navigate the quarter-life transition with clarity, purpose, and actionable strategies for success.",
-      icon: "🎯",
       href: "/young-adult-coaching", 
       highlights: ["Career direction", "Life transitions", "Goal achievement"]
     }
@@ -89,14 +85,14 @@ const ServicesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="card hover:shadow-xl transition-all duration-300">
-              <div className="text-4xl mb-6 text-center">{service.icon}</div>
+              <div className="h-3 bg-gradient-to-r from-brand to-seafoam rounded-full mb-6"></div>
               <h3 className="text-xl font-semibold text-brand mb-4">{service.title}</h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
               
               <div className="space-y-2 mb-6">
                 {service.highlights.map((highlight, idx) => (
                   <div key={idx} className="flex items-center text-sm text-gray-600">
-                    <span className="text-green-600 mr-2">✓</span>
+                    <span className="w-2 h-2 bg-green-600 rounded-full mr-3"></span>
                     {highlight}
                   </div>
                 ))}
@@ -127,19 +123,19 @@ const CoachingVsTherapySection = () => {
               <h3 className="text-xl font-semibold text-brand mb-4">Life Coaching</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">🎯</span>
+                  <span className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Future-focused:</strong> Goal achievement and life optimization</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">⚡</span>
+                  <span className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Action-oriented:</strong> Practical strategies and accountability</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">🌟</span>
+                  <span className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Strengths-based:</strong> Building on what&apos;s already working</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">🌍</span>
+                  <span className="w-2 h-2 bg-green-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Virtual sessions:</strong> Available nationwide and internationally</span>
                 </li>
               </ul>
@@ -149,15 +145,15 @@ const CoachingVsTherapySection = () => {
               <h3 className="text-xl font-semibold text-brand mb-4">Therapy (Colorado Residents)</h3>
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-3 mt-1">🩺</span>
+                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Clinical treatment:</strong> Mental health diagnosis and treatment</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-3 mt-1">🔍</span>
+                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Healing-focused:</strong> Processing past trauma and experiences</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-3 mt-1">💰</span>
+                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 mt-2"></span>
                   <span><strong>Insurance accepted:</strong> Medicaid and sliding scale options</span>
                 </li>
               </ul>
@@ -219,21 +215,21 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold text-brand mb-6">Why Choose Coaching?</h3>
             <div className="space-y-4">
               <div className="flex items-start">
-                <span className="text-2xl mr-4">⚡</span>
+                <div className="w-3 h-3 bg-brand rounded-full mr-4 mt-1"></div>
                 <div>
                   <strong>Faster Results</strong><br />
                   <span className="text-gray-600">Goal-focused sessions with immediate strategies</span>
                 </div>
               </div>
               <div className="flex items-start">
-                <span className="text-2xl mr-4">🎯</span>
+                <div className="w-3 h-3 bg-brand rounded-full mr-4 mt-1"></div>
                 <div>
                   <strong>Customized Approach</strong><br />
                   <span className="text-gray-600">Tailored to your specific goals and challenges</span>
                 </div>
               </div>
               <div className="flex items-start">
-                <span className="text-2xl mr-4">💻</span>
+                <div className="w-3 h-3 bg-brand rounded-full mr-4 mt-1"></div>
                 <div>
                   <strong>Virtual Convenience</strong><br />
                   <span className="text-gray-600">Sessions from anywhere in the world</span>
