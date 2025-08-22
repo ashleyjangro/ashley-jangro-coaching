@@ -10,6 +10,7 @@ const Navigation = () => {
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/executive-coaching', label: 'Executive Women' },
+    { href: '/parent-coaching', label: 'Parents' },
     { href: '/teen-coaching', label: 'Teens' },
     { href: '/young-adult-coaching', label: 'Young Adults' },
     { href: '/about', label: 'About' },
@@ -113,6 +114,9 @@ const Footer = () => (
           <div className="space-y-2 text-white">
             <Link href="/executive-coaching" className="block hover:text-mint transition-colors">
               Executive Women Coaching
+            </Link>
+            <Link href="/parent-coaching" className="block hover:text-mint transition-colors">
+              Parent Coaching
             </Link>
             <Link href="/teen-coaching" className="block hover:text-mint transition-colors">
               Teen Life Coaching
