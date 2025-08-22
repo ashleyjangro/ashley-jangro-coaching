@@ -221,7 +221,7 @@ const ResultsSection = () => {
         <div className="text-center mb-20">
           <h2 className="mb-8">Real Results Across All Life Stages</h2>
           <p className="text-large max-w-2xl mx-auto">
-            The same brain optimization principles work whether you're 16 or 60. Here's what changes:
+            The same brain optimization principles work whether you&apos;re 16 or 60. Here&apos;s what changes:
           </p>
         </div>
         
@@ -372,12 +372,12 @@ const AboutSection = () => {
               
               <p className="text-body">
                 My approach is trauma-informed and includes somatic techniques because your body holds wisdom 
-                your thinking mind can't access. We work with <strong>both brain science and body awareness </strong> 
+                your thinking mind can&apos;t access. We work with <strong>both brain science and body awareness </strong> 
                 to create the outcomes you actually want.
               </p>
               
               <p className="text-body">
-                This isn't just cerebral work - it's about integrating your whole self so change feels 
+                This isn&apos;t just cerebral work - it&apos;s about integrating your whole self so change feels 
                 natural and sustainable, not forced.
               </p>
             </div>
@@ -414,7 +414,7 @@ const CTASection = () => {
   return (
     <section className="bg-brand text-white section-padding">
       <div className="container-custom text-center">
-        <h2 className="text-white mb-6">Ready to Unlock Your Brain's Full Potential?</h2>
+        <h2 className="text-white mb-6">Ready to Unlock Your Brain&apos;s Full Potential?</h2>
         <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
           Stop fighting your own brain. Start working with it. Discover what happens when neuroscience 
           meets life transformation.

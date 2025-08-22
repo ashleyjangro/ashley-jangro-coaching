@@ -56,7 +56,7 @@ const OptimizedImage = ({
     imageProps.sizes = sizes || '100vw'
   }
 
-  return <Image {...imageProps} />
+  return <Image {...imageProps} alt={alt || ''} />
 }
 
 export default OptimizedImage
